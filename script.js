@@ -9,7 +9,7 @@ function toggleMode() {
     // substituir a img
     if(html.classList.contains('light')){
         //se tiver light mode, img light
-        img.setAttribute('src', './projeto/assets/hamerti.jpg')
+        img.setAttribute('src', './projeto/assets/perfil-claro.jpg')
         img.setAttribute('alt', "Hamerti comendo bicoito")
 
     } else {    

@@ -1,5 +1,5 @@
-<h1 align="center"> DevLinks </h1>
 
+<<<<<<< HEAD
 <p align="center">
 Projeto desenvovido junto ao curso Discover da Rocketseat. <br/>
 
@@ -39,3 +39,5 @@ O DevLinks é um agregador de links para usar como cartão de visitas online.
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+=======
+>>>>>>> 11434cb335a3efe180f421de7a524f768fca32c5

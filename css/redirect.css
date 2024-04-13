@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #f4f4f4;
+}
+
+body {
+    background-image: url(/projeto/assets/escuro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#content {
+    width: 588px;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    padding: 2rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+}
+
+#content h1 {
+    position: relative;
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    animation: textright 1s ease-in;
+}
+
+#text-container {
+    position: relative;
+    display: block;
+    animation: textup 1s ease-in;
+}
+
+@keyframes textup {
+    0% {
+        opacity: 0%;
+        top: 110px        
+    }
+
+    70% {
+        opacity: 0%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes textright {
+    0% {
+        opacity: 0%;
+        right: 110px;        
+    }
+
+    70% {
+        opacity: 0%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+.text {
+    margin-bottom: .5rem;
+}
+
+.back a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.back a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    #container {
+        backdrop-filter: blur(4px);
+    }
+    #content {
+        border: none;
+        backdrop-filter: none;
+    }
+}
